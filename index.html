@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IIQ Tools JDP</title>
+</head>
+<body>
+<h1>IIQ Tools JDP (beta) <small style="font-size:12pt">IdentityIQ Java Development Plugin</small></h1>
+
+<p>This plugin provides tools for generating BeanShell scripts from related Java classes for IdentityIQ</p>
+<a href="jdp/update-site/">Installation</a>
+
+<h2>Quick Start</h2>
+
+<p>Create a Java Project and configure Java Build Path</p>
+<img src="images/project/project-001.png"><br/>
+<img src="images/project/project-002.png"><br/>
+<img src="images/project/project-003.png"><br/>
+<img src="images/project/project-004.png"><br/>
+
+<p>Unzip SSB files on the project folder and setup IdentityIQ libraries</p>
+<img src="images/project/project-005.png"><br/>
+
+<p>Create new source folder 'dev'</p>
+<img src="images/project/project-006.png"><br/>
+<img src="images/project/project-007.png"><br/>
+
+<p>Create a new Java Class</p>
+<ul>
+<li><code>@IIQArtefact</code> - mandatory annotation.
+  <ul>
+  <li>name - relative (to Java Project) path to the related xml artefact</li>
+  <li>xpath - a node inside xml to update</li>
+  <li>eol - end of line. Target | System | Windows | Unix</li>
+  </ul>
+</li>
+<li>
+  <code>@IIQArtefactBody</code> - the main method that body is extracted and copied into target XML node. All other methods are copied as is.
+</li>
+<li>
+  <code>@IIQArtefactIgnore</code> - fields and methods marked with this annotation will be excluded from result script.
+</li>
+</ul>
+<img src="images/project/project-008.png"><br/>
+
+
+<p>Create a new IdentityIQ Rule</p>
+<img src="images/project/project-009.png"><br/>
+
+<p>Click the IIQ Artefact button on the main toolbar while the Java class is selected</p>
+<img src="images/project/project-010.png"><br/>
+
+<p>Review changes made in the xml file</p>
+<img src="images/project/project-011.png"><br/>
+
+</body>
+</html>
