@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.iiqtools.jdp.feature_0.0.15.devbuild.jar" id="com.iiqtools.jdp.feature" version="0.0.15.devbuild"/>
+   <feature url="features/com.iiqtools.jdp.feature_0.0.16.devbuild.jar" id="com.iiqtools.jdp.feature" version="0.0.16.devbuild"/>
 </site>
