@@ -1,4 +1,4 @@
-# IIQ Tools JDP (beta)
+# IIQ Tools JDP (version 1.0.0)
 
 Tired of lack of code validation and formating in SailPoint IdentityIQ? Try it in real Java ...
 
