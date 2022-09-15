@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.iiqtools.jdp.feature_0.0.16.devbuild.jar" id="com.iiqtools.jdp.feature" version="0.0.16.devbuild"/>
-   <feature url="features/com.iiqtools.jdp.feature_1.0.0.jar" id="com.iiqtools.jdp.feature" version="1.0.0"/>
+   <feature url="features/com.iiqtools.jdp.feature_0.0.16.devbuild.jar" id="com.iiqtools.jdp.feature" version="0.0.16.devbuild">
+      <category name="identityiq"/>
+   </feature>
+   <feature url="features/com.iiqtools.jdp.feature_1.0.0.jar" id="com.iiqtools.jdp.feature" version="1.0.0">
+      <category name="identityiq"/>
+   </feature>
+   <category-def name="identityiq" label="IdentityIQ"/>
 </site>
